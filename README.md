@@ -1,4 +1,4 @@
-# 🏆 Pokémon Agent MCP: Your Ultimate Battle Sidekick
+# 🏆 Pokémon Agent MCP: Your Ultimate Battle 
 
 ## ⚡ What Is This App About?
 
