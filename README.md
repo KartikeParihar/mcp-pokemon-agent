@@ -1,30 +1,70 @@
-# 🏆 Pokémon Agent MCP: The Ultimate Battle Assistant
+# 🏆 Pokémon Agent MCP: Your Ultimate Battle Sidekick
 
-## ⚡ **What's This Project?**
+## ⚡ What Is This App About?
 
-A **Django + Streamlit + FastMCP** powered toolkit that helps you:
-- 🔎 **Look up any Pokémon's stats** in seconds
-- ⚖️ **Compare two Pokémon** head-to-head
-- 🧠 **Get AI-generated battle strategies**
-- 🏗️ **Build perfect teams** with natural language prompts
+This project blends **Django**, **Streamlit**, and **FastMCP** to create an AI-enhanced Pokémon battle companion. With this smart tool, you can:
+- 🔍 **Search detailed Pokémon data**
+- ⚖️ **Compare two Pokémon's stats and abilities**
+- 🧠 **Get AI-powered strategy suggestions**
+- 🏗️ **Build a custom team** just by describing your style
 
-> "It's like having Professor Oak, a battle strategist, and a team builder all in one app!" - Probably Ash Ketchum
+> _"Like having Professor Oak, a top-tier coach, and a Pokédex in your pocket!"_
 
-## 🌟 **Key Features**
+---
 
-| Feature | Description | Tech Used |
-|---------|-------------|-----------|
-| **Instant Pokémon Lookup** | Get stats, types, abilities for any Pokémon | Django + PokeAPI |
-| **Pokémon Comparison** | Side-by-side stat comparisons | Django REST Framework |
-| **AI Team Builder** | "Make me a balanced team with a fire type" → Your team! | FastMCP + Gemini |
-| **Counter Recommendations** | Best Pokémon to counter any opponent | Type-matching algorithms |
+## 🌟 Core Features
 
-## 🚀 **Why FastMCP?**
+| Feature                     | What It Does                                             | Technologies Used            |
+|-----------------------------|----------------------------------------------------------|------------------------------|
+| **Pokémon Quick Lookup**    | Fetch stats, types, and abilities instantly              | Django + PokéAPI             |
+| **Pokémon Matchups**        | Compare two Pokémon and their advantages                 | Django REST Framework        |
+| **Smart Team Generator**    | Build a battle-ready team using natural language         | FastMCP + Gemini LLM         |
+| **Counter Picks**           | Find Pokémon that best counter any opponent              | Type-based logic              |
 
-We use **FastMCP (Model Context Protocol)** because:
-- ⚡ **Blazing fast** AI responses
-- 🔗 **Seamlessly connects** Django with Gemini AI
-- 📦 **Lightweight** but powerful model serving
+---
 
+## 🚀 Why FastMCP?
+
+We use **FastMCP (Model Context Protocol)** to:
+- ⚡ Deliver rapid and intelligent responses
+- 🔗 Seamlessly connect Django APIs with Gemini AI
+- 🧩 Support scalable and lightweight AI integration
+
+FastMCP ensures your team-building and battle-strategy AI feels instant and natural.
+
+---
+
+## 🛠️ Why Django?
+
+We picked **Django** for its reliability and performance:
+- ✅ **Built for scale**: Ideal for handling complex APIs and logic
+- 🛡️ **Security-first**: Protects against common web threats out of the box
+- ⚙️ **Modular and clean**: Promotes reusable, testable components
+- 🌐 **Great API tools**: Django REST Framework simplifies backend API creation
+- 🤝 **Well-supported**: A large ecosystem and community make Django future-proof
+
+---
+
+## 🎨 Why Streamlit?
+
+We chose **Streamlit** as the UI layer for its:
+- ⚡ **Simplicity & speed**: Quickly build rich web apps using just Python
+- 🔄 **Live interactivity**: Users can interact with dropdowns, buttons, and sliders in real-time
+- 📊 **Data-friendly design**: Perfect for showing Pokémon stats, graphs, and predictions
+- 🔌 **No need for HTML/CSS/JS**: Streamlit abstracts all frontend code, making rapid prototyping a breeze
+- 🧪 **Ideal for AI apps**: Easily integrates with ML models and APIs
+
+In short, Streamlit turns our AI logic into a friendly and interactive web experience — no frontend coding required.
+
+---
+
+## 🧩 Key Modules Overview
+
+### 🔍 Pokémon Info Viewer
+
+Retrieve in-depth information:
+- Base stats, abilities, types
+- Visual sprites
+- Evolution info
 
 
